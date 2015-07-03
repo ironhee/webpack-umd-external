@@ -1,3 +1,8 @@
+# Install
+```
+npm install -D webpack-umd-external
+```
+
 # Usage
 
 ```javascript
