@@ -1,0 +1,14 @@
+{
+  "name": "webpack-umd-external",
+  "version": "1.0.0",
+  "description": "make external object for umd library.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ironhee <leechulhee95@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^3.10.0"
+  }
+}
