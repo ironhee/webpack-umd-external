@@ -1,6 +1,6 @@
 {
   "name": "webpack-umd-external",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "make external object for umd library.",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,6 @@
   "author": "ironhee <leechulhee95@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "lodash": "^3.10.0"
+    "underscore": "^1.8.3"
   }
 }

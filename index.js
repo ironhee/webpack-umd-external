@@ -1,11 +1,8 @@
-'use strict';
-
-
-var _ = require('lodash');
+var _ = require('underscore');
 
 
 module.exports = function webpackUMDExternal(externals) {
-  return _.mapValues(externals, function mapper(externalKey, requireKey) {
+  return _.mapObject(externals, function mapper(externalKey, requireKey) {
     return {
       'root': externalKey,
       'amd': requireKey,
