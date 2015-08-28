@@ -7,8 +7,6 @@ npm install -D webpack-umd-external
 
 before
 ```javascript
-var webpackUMDExternal = require('webpack-umd-external');
-
 module.exports = {
   entry: {
     'myModule': './src/my_module.js'
