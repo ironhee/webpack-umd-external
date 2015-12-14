@@ -54,7 +54,7 @@ module.exports = {
     library: 'MyModule',
     libraryTarget: 'umd'
   },
-  externals: transformUMDExternal({
+  externals: webpackUMDExternal({
     'jquery': '$',
     'lodash': '_',
     'q': 'Q'
